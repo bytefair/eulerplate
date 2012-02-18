@@ -51,3 +51,8 @@ The favicon is the icon shown to the left of the URL at the top of your browser 
 ### apple-touch-icon.png
 On iPhones and iPads you can book mark a web page and have it show up on the home screen as an icon. The apple-touch-icon.png becomes this icon if used. Rounded corners and glossy finish are added by the device.
 
+Eulerplate Changes
+----------------------
+__0.1__ - Updated HTML5 boilerplate code to v3 and updated links in theme. Altered the heading levels on zencoder's theme to match the modern HTML5 outline model.
+
+__0.2__ - 
