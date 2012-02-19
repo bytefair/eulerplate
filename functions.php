@@ -67,3 +67,5 @@ function versioned_resource($relative_url){
 
   return $relative_url.$file_version;
 }
+
+// For additional drop in functions, check out www.wpfunction.me
