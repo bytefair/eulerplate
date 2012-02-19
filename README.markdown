@@ -19,7 +19,7 @@ It's a very bare layout, including only the base styles that come with the boile
 
 Root Files
 ----------
-These files can be found in the html5-boilerplate folder in the theme (html5-boilerplate-for-wordpress/html5-boilerplate). Some of the files listed here should be (carefully) moved to the root of your site (same level as the wp-content directory). Read on for specific instructions.
+These files can be found in the html5-boilerplate folder in the theme (eulerplate/html5-boilerplate). Some of the files listed here should be (carefully) moved to the root of your site (same level as the wp-content directory). Read on for specific instructions.
 
 ### 404 Page
 If you use permanlinks (WP-Admin > Settings > Permalinks), then WordPress handles any 404s with the 404.php included in the theme. If you don't use permalinks, then add the 404.html file to the root of your site.
