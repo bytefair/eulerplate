@@ -54,6 +54,8 @@ Getting Started
 
 Eulerplate Changes
 ------------------
-__0.1__ - Updated HTML5 boilerplate code to v3 and updated links in theme. Altered the heading levels on zencoder's theme to match the modern HTML5 outline model.
+__v0.1__ - Updated HTML5 boilerplate code to v3 and updated links in theme. Altered the heading levels on zencoder's theme to match the modern HTML5 outline model.
 
-__0.2__ - Updated all headers and footers to new Boilerplate way of doing things
+__v0.2__ - Updated all headers and footers to new Boilerplate way of doing things
+
+__v3.0__ - First official release. Lots of bugfixes.
