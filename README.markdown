@@ -1,5 +1,9 @@
-HTML5 Boilerplate for Wordpress
-===============================
+Eulerplate, a WordPress theme based on HTML5 Boilerplate
+========================================================
+
+This theme is a set of updates and improvements to zencoder’s Boilerplate Theme.
+
+The following text is from the orginal readme:
 
 This theme is built on the [HTML5 Boilerplate](http://html5boilerplate.com/) by Paul Irish and Divya Manian. The sole purpose of this theme is to save developers the time it takes to apply the HTML5 Boilerplate to WordPress. The "HTML5 Boilerplate" name is used with permission from Paul Irish.
 
@@ -13,13 +17,6 @@ and [section](http://html5doctor.com/the-section-element/).
 
 It's a very bare layout, including only the base styles that come with the boilerplate and required WordPress styles, so layout is up to you. Alternatively, you could apply the methods used here to other themes.
 
-Getting Started
----------------
-1. Add the html5-boilerplate-for-wordpress folder to your wp-content/themes folder.
-2. Activate the theme. WP-Admin > Appearance > Themes
-3. Add some of the "Root Files" to the root directory of your website (explained below).
-4. Style away, knowing that you're building on a super solid base with HTML5 awesomeness.
-
 Root Files
 ----------
 These files can be found in the html5-boilerplate folder in the theme (html5-boilerplate-for-wordpress/html5-boilerplate). Some of the files listed here should be (carefully) moved to the root of your site (same level as the wp-content directory). Read on for specific instructions.
@@ -30,9 +27,6 @@ If you use permanlinks (WP-Admin > Settings > Permalinks), then WordPress handle
 ### .htaccess
 **Do not copy to the root of your site.** This may overwrite the WordPress htaccess, and break Wordpress. Instead, copy and paste the contents of this file to the .htaccess already at the root of your site, after the existing content. It would be good to make a comment where the Boilerplate content begins, like "# Begin HTML5 Boilerplate". Read htaccess file for more info on what it does.
 **This file may not be visible if you're viewing the folder on your computer. Files that start with a "." are often hidden. It should be visible through your FTP browser once uploaded.**
-
-### nginx.conf
-Used for a different type of web server than Apache. You don't need it.
 
 ### crossdomain.xml
 If you don't know what this is, you probably don't need it.
@@ -51,8 +45,15 @@ The favicon is the icon shown to the left of the URL at the top of your browser 
 ### apple-touch-icon.png
 On iPhones and iPads you can book mark a web page and have it show up on the home screen as an icon. The apple-touch-icon.png becomes this icon if used. Rounded corners and glossy finish are added by the device.
 
+Getting Started
+---------------
+1. Add the html5-boilerplate-for-wordpress folder to your wp-content/themes folder.
+2. Activate the theme. WP-Admin > Appearance > Themes
+3. Add some of the "Root Files" to the root directory of your website (explained below).
+4. Style away, knowing that you're building on a super solid base with HTML5 awesomeness.
+
 Eulerplate Changes
-----------------------
+------------------
 __0.1__ - Updated HTML5 boilerplate code to v3 and updated links in theme. Altered the heading levels on zencoder's theme to match the modern HTML5 outline model.
 
-__0.2__ - 
+__0.2__ - Updated all headers and footers to new Boilerplate way of doing things
