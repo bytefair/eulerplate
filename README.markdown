@@ -37,7 +37,7 @@ Tells all search engines that they can read and index all pages. This is handled
 
 Root Images
 -----------
-These aren't included with the HTML5 Boilerplate, but links to them are, so these were created so that you don't return a 404 when the browser requests them. Better to include these or make your own, than not include any. The can be found in the images folder of the theme (html5-boilerplate-for-wordpress/images).
+These aren't included with the HTML5 Boilerplate, but links to them are, so these were created so that you don't return a 404 when the browser requests them. Better to include these or make your own, than not include any. The can be found in the images folder of the theme (eulerplate/images).
 
 ### favicon.ico
 The favicon is the icon shown to the left of the URL at the top of your browser window.
@@ -47,7 +47,7 @@ On iPhones and iPads you can book mark a web page and have it show up on the hom
 
 Getting Started
 ---------------
-1. Add the html5-boilerplate-for-wordpress folder to your wp-content/themes folder.
+1. Add the eulerplate folder to your wp-content/themes folder.
 2. Activate the theme. WP-Admin > Appearance > Themes
 3. Add some of the "Root Files" to the root directory of your website (explained below).
 4. Style away, knowing that you're building on a super solid base with HTML5 awesomeness.
