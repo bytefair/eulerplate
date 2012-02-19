@@ -44,7 +44,7 @@ If you use permalinks (WP-Admin > Settings > Permalinks), then WordPress handles
 ### .htaccess
 **Do not copy to the root of your site.** This may overwrite the WordPress htaccess, and break Wordpress. Instead, copy and paste the contents of this file to the .htaccess already at the root of your site, after the existing content. It would be good to make a comment where the Boilerplate content begins, like "# Begin HTML5 Boilerplate". Read htaccess file for more info on what it does.
 
-**This file, being a dotfile is frequently invisibile** to your OS, but you should be able to see it from your FTP client or the command line with `ls -a`. You can also rename it to htaccess without the dot if you’d like it to always be visible.
+**This file, being a dotfile, is frequently invisible to your OS**, but you should be able to see it from your FTP client or the command line with `ls -a`. You can also rename it to htaccess without the dot if you’d like it to always be visible.
 
 ### crossdomain.xml
 If you don't know what this is, you probably don't need it.
@@ -75,4 +75,6 @@ __v0.1__ - Updated HTML5 boilerplate code to v3 and updated links in theme. Alte
 
 __v0.2__ - Updated all headers and footers to new Boilerplate way of doing things
 
-__v3.0__ - First official release. Lots of bugfixes.
+__v3.0__ - First official release. Lots of bugfixes. Upped major version number to coincide with the HTML5 Boilerplate release number.
+
+__v3.1__ - Bugfixes and documentation
