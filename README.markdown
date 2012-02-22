@@ -30,7 +30,7 @@ Why Develop from the HTML5 Boilerplate Folder?
 ----------------------------------------------
 Rather than create a more traditional WordPress theme, I stuck to [zencoder](https://github.com/zencoder/)'s setup of having Boilerplate in a separate directory. There are two major reasons for this.
 
-One, I want to decouple work on the theme, which I will be doing from development on Boilerplate, which I will not edit aside from dropping in required Wordpress styles. I might want to add new features and functionality to the base theme and don't want to risk changing anything related to Boilerplate itself. If I leave Boilerplate in a separate directory, it makes it easier to upgrade when a new version comes out.
+One, I want to decouple work on the theme from Boilerplate. I might want to add new features and functionality to the base theme and don't want to risk changing anything related to Boilerplate itself. If I leave Boilerplate in a separate directory, it makes it easier to upgrade when a new version comes out.
 
 Two, when I'm styling a page, I usually dump a test post to HTML and then style it locally rather than developing the theme on the server. It is simpler to do this by simply dropping a dump of the generated HTML code for the views I want to style right into the Boilerplate directory of the local copy of my theme. I think this is a good workflow and would like to keep it.
 
