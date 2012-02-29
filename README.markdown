@@ -77,3 +77,6 @@ __v0.2__ - Updated all headers and footers to new Boilerplate way of doing thing
 __v3.0__ - First official release. Lots of bugfixes. Upped major version number to coincide with the HTML5 Boilerplate release number.
 
 __v3.1__ - Bugfixes and documentation
+
+__v3.2__ - Updated Boilerplate to 3.0.2 and removed WordPress CSS from stylesheet
+
