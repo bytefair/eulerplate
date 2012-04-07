@@ -21,7 +21,7 @@
 
 <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script>window.jQuery || document.write(<?php wp_enqueue_script( 'jquery' ); ?>)</script>
+<script>window.jQuery || document.write(<?php wp_deregister_script('jquery'); wp_enqueue_script( 'jquery', get_template_directory_uri().'/html5-boilerplate/js/libs/jquery-1.7.1.js' ); ?>)</script>
 
 <!-- scripts concatenated and minified via build script -->
 <?php wp_enqueue_script( 'jquery-plugins', get_template_directory_uri().'/html5-boilerplate/js/plugins.js', array('jquery'), '0'); ?>
