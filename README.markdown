@@ -80,3 +80,4 @@ __v3.1__ - Bugfixes and documentation
 
 __v3.2__ - Updated Boilerplate to 3.0.2 and removed WordPress CSS from stylesheet
 
+__v3.3__ - Removed Steve's custom versioning function and moved the scripts and styles to the wp_enqueue functions
