@@ -41,7 +41,7 @@ if ( function_exists('register_sidebar') ) {
 		'after_title' => '</h2>',
 	));
 }
-
+/*
 // Custom Functions for CSS/Javascript Versioning
 $GLOBALS["TEMPLATE_URL"] = get_bloginfo('template_url')."/";
 $GLOBALS["TEMPLATE_RELATIVE_URL"] = wp_make_link_relative($GLOBALS["TEMPLATE_URL"]);
@@ -67,5 +67,5 @@ function versioned_resource($relative_url){
 
   return $relative_url.$file_version;
 }
-
+*/
 // For additional drop in functions, check out www.wpfunction.me

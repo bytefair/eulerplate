@@ -21,11 +21,11 @@
 
 <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="<?php echo $GLOBALS["TEMPLATE_RELATIVE_URL"] ?>html5-boilerplate/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+<script>window.jQuery || document.write(<?php wp_enqueue_script( 'jquery' ); ?>)</script>
 
 <!-- scripts concatenated and minified via build script -->
-<?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."html5-boilerplate/js/plugins.js") ?>
-<?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."html5-boilerplate/js/script.js") ?>
+<?php wp_enqueue_script( 'jquery-plugins', get_template_directory_uri().'/html5-boilerplate/js/plugins.js', array('jquery'), '0'); ?>
+<?php wp_enqueue_script( 'jquery-script', get_template_directory_uri().'/html5-boilerplate/js/script.js', array('jquery'), '0'); ?>
 <!-- end scripts -->
 
 <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
