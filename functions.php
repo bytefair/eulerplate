@@ -4,6 +4,11 @@
  * @subpackage Eulerplate
  */
 
+// Disable version reporting to help thwart script kiddies
+function remove_generators() {
+  return '';
+}
+
 // Custom HTML5 Comment Markup
 function mytheme_comment($comment, $args, $depth) {
    $GLOBALS['comment'] = $comment; ?>
@@ -30,7 +35,7 @@ function mytheme_comment($comment, $args, $depth) {
 <?php
 }
 
-automatic_feed_links();
+add_theme_support( 'automatic-feed-links' );
 
 // Widgetized Sidebar HTML5 Markup
 if ( function_exists('register_sidebar') ) {
