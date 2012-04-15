@@ -1,20 +1,8 @@
 # Eulerplate, a WordPress theme based on HTML5 Boilerplate
 
-This theme is a set of updates and improvements to zencoder’s Boilerplate Theme.
-
-The following text is from the orginal readme:
+Eulerplate is a set of updates and improvements to zencoder’s HTML5 Boilerplate Theme that can be found on Wordpress.org. It is a theme meant for people who are learning web design and development and want something clean and easy to start from. Alternately, it's great for people who are making simple, static sites that don't need the advanced blogging features of WordPress and/or control freaks who like to style every last tag by hand.
 
 This theme is built on the [HTML5 Boilerplate](http://html5boilerplate.com/) by Paul Irish and Divya Manian. The sole purpose of this theme is to save developers the time it takes to apply the HTML5 Boilerplate to WordPress. The "HTML5 Boilerplate" name is used with permission from Paul Irish.
-
-The layout is based on Bruce Lawson's [Designing a Blog with HTML5](http://html5doctor.com/designing-a-blog-with-html5/)
-
-Instead of using only DIVs for content layout, it uses new HTML5 tags, including [header](http://html5doctor.com/the-header-element/), 
-[footer](http://www.w3schools.com/html5/tag_footer.asp), 
-[nav](http://www.w3schools.com/html5/tag_nav.asp), 
-[article](http://www.w3schools.com/html5/tag_article.asp), 
-and [section](http://html5doctor.com/the-section-element/).
-
-It's a very bare layout, including only the base styles that come with the boilerplate and required WordPress styles, so layout is up to you. Alternatively, you could apply the methods used here to other themes.
 
 ## Getting Started
 
@@ -32,6 +20,12 @@ Rather than create a more traditional WordPress theme, I stuck to [zencoder](htt
 One, I want to decouple work on the theme from Boilerplate. I might want to add new features and functionality to the base theme and don't want to risk changing anything related to Boilerplate itself. If I leave Boilerplate in a separate directory, it makes it easier to upgrade when a new version comes out.
 
 Two, when I'm styling a page, I usually dump a test post to HTML and then style it locally rather than developing the theme on the server. It is simpler to do this by simply dropping a dump of the generated HTML code for the views I want to style right into the Boilerplate directory of the local copy of my theme. I think this is a good workflow and would like to keep it.
+
+## Submitting Patches and "Why Didn't You Do X Like Y"
+
+Probably because this is a LEARNING tool. I did a few things that aren't optimum for WordPress zealots like calling scripts with enqueue_script() right from the spot they are called from in Boilerplate. Normally, you'd want to call these from functions.php and make a custom loader function. This is fine if you know a lot about WP, but if you don't you have little idea what's happening. I wanted for the most part to keep the files flat and most of the functionality easy to understand. This is not to mean there are not oversights, so if you notice something not done the "WordPress way," please send me a patch or issue on Github. I'll try to fix oversights and at the least I will strongly consider the philosophy behind your changes.
+
+If you have a patch you'd like to submit, please fork the project, make your patches in a new branch and send me a pull request. If it's appropriate, I will add it. I do not have development branches for Eulerplate because the project is so simple. I will merge it right into master.
 
 ## Root Files
 
@@ -81,3 +75,5 @@ __v3.1__ - Bugfixes and documentation
 __v3.2__ - Updated Boilerplate to 3.0.2 and removed WordPress CSS from stylesheet
 
 __v3.3__ - Removed Steve's custom versioning function and moved the scripts and styles to the wp_enqueue functions
+
+__v3.4__ - php_language_attributes() replaces the default English language setting in header.php - thanks @ebiansyah1402
