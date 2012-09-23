@@ -77,3 +77,5 @@ __v3.2__ - Updated Boilerplate to 3.0.2 and removed WordPress CSS from styleshee
 __v3.3__ - Removed Steve's custom versioning function and moved the scripts and styles to the wp_enqueue functions
 
 __v3.4__ - php_language_attributes() replaces the default English language setting in header.php - thanks @ebiansyah1402. Also changed automatic_feed_links to the WP 3.0 way of doing it.
+
+__v4.0__ - no more manual updates to HTML5 Boilerplate, moved to a submodule. BP is now at v4.
